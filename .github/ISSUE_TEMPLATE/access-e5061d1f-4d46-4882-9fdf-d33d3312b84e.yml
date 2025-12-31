@@ -1,0 +1,31 @@
+name: Request access to playground-private-repo
+description: Paid access request for playground-private-repo.
+title: "Access request: playground-private-repo"
+labels: ["access-request"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!-- entitlement_id: e5061d1f-4d46-4882-9fdf-d33d3312b84e -->
+        You are requesting paid access to **playground-private-repo**.
+        After submitting this issue, you will receive a payment link.
+
+  - type: dropdown
+    id: entitlement_id
+    attributes:
+      label: Entitlement ID
+      description: This is selected automatically. Do not change it.
+      options:
+        - e5061d1f-4d46-4882-9fdf-d33d3312b84e
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Your email (optional)
+      description: We'll only use this if we need to contact you about the request.
+      placeholder: you@example.com
+    validations:
+      required: false
