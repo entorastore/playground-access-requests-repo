@@ -1,0 +1,12 @@
+name: Request access
+description: Paid access request for a creator entitlement.
+title: "Access request"
+labels: ["access-request"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!-- entitlement_id: ab83c1d4-dc91-4db9-9e54-9d78e836942b -->
+        You are requesting paid access to **playground-private-repo**.
+        After submitting this issue, you will receive a payment link.
